@@ -2,27 +2,12 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-size: cover;
   height: 100%;
-}
-nav ul {
-  background: rgb(0, 0, 0);
-  height: 100px;
-  width: 100%;
-  line-height: 70px;
-  text-align: center;
-}
-nav li {
-  display: inline-block;
-  margin-left: 10x;
-}
-nav ul li img {
-  margin-top: 25px;
-  border-radius: 500px;
-  max-height: 50px;
-  padding: 0 90px;
+  font-size: larger;
 }
 .profile-header {
   height: 200px;
   padding: 30px 50px;
+  background-color: rgb(177, 177, 177);
 }
 .section-1 {
   float: left;
@@ -39,7 +24,15 @@ nav ul li img {
   width: 33.333%;
   text-align: center;
   vertical-align: middle;
-  padding: 70px;
+  padding: 50px;
+  font-size: larger;
+}
+.name {
+  text-decoration-line: underline;
+  text-decoration-color: gold;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+  padding-bottom: 10px;
 }
 .section-3 {
   float: right;
@@ -49,4 +42,25 @@ nav ul li img {
 .section-3 img {
   width: 100px;
   border-radius: 5px;
+}
+.NavBar img {
+  display: inline-block;
+  margin-top: 25px;
+  border-radius: 500px;
+  max-height: 50px;
+  padding: 0 90px;
+}
+.NavBar ul {
+  height: 100px;
+  width: 100%;
+  line-height: 70px;
+  text-align: center;
+  list-style-type: none;
+}
+main {
+  text-align: center;
+}
+.heading {
+}
+.articleTitle {
 }
