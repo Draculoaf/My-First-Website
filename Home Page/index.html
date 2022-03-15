@@ -5,21 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
     <header>
-      <figure><img src="profilePhoto.jpg" alt="A photo of me" /></figure>
-      <article>
-        Hi I'm Jessica! Welcome to my website. I am a third year student
-        currently majoring in interactive media and game design.
-      </article>
-      <figure>
-        <a href="https://za.linkedin.com/in/jessica-hon-83b4981ab"
-          ><img src="Linkedin.jpg" alt="Linkedin" />
-        </a>
-      </figure>
-      <article>Let's connect!</article>
+      <section class="profile-section">
+        <figure class="profile-figure">
+          <img src="cartoon.png" id="profilePhoto" />
+        </figure>
+        <article class="profile-intro">
+          Hi I'm Jessica! Welcome to my website. I am a third year student
+          currently majoring in interactive media and game design.
+        </article>
+        <figure>
+          <a
+            href="https://za.linkedin.com/in/jessica-hon-83b4981ab"
+            target="_blank"
+            ><img src="Linkedin.jpg" id="linkPhoto" />
+          </a>
+        </figure>
+      </section>
     </header>
 
     <main>
@@ -27,12 +34,14 @@
         <nav>
           <ul>
             <li>
-              <a href="/Blog Page/blog.html"><img src="" alt="Blog page" /></a>
+              <a href="/Blog Page/blog.html"
+                ><img src="/Nav Bar Photos/filler.jpg" alt="Blog page"
+              /></a>
               <a href="/Design Page/design.html"
-                ><img src="" alt="Design page"
+                ><img src="/Nav Bar Photos/toad.jpg" alt="Design page"
               /></a>
               <a href="#portfolioTimeline"
-                ><img src="" alt="Portfolio section"
+                ><img src="/Nav Bar Photos/filler.jpg" alt="Portfolio section"
               /></a>
             </li>
           </ul>

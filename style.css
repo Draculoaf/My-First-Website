@@ -1,0 +1,52 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: black;
+  background-size: cover;
+  color: white;
+  height: 100%;
+}
+header {
+  color: gold;
+  font-size: 25px;
+}
+.profile-section {
+  height: 50vh;
+  width: 100%;
+}
+.profile-figure {
+  width: 33%;
+}
+#profilePhoto {
+  border-radius: 500px;
+  max-height: 300px;
+  display: inline-block;
+  float: left;
+}
+.profile-intro {
+  font-size: 30px;
+  width: 60%;
+  padding: 100px 50px;
+}
+#linkPhoto {
+  max-height: 50px;
+  float: right;
+  display: block;
+}
+nav ul {
+  background: white;
+  color: black;
+  height: 100px;
+  width: 100%;
+  line-height: 70px;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin-left: 10x;
+}
+nav ul li img {
+  margin-top: 25px;
+  border-radius: 500px;
+  max-height: 50px;
+  padding: 0 90px;
+}
