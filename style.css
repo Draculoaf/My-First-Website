@@ -1,13 +1,17 @@
+html::-webkit-scrollbar {
+  display: none;
+}
 body {
   font-family: "Times New Roman", Times, serif;
   background-size: cover;
   height: 100%;
   font-size: larger;
+  background-color: rgb(133, 133, 133);
 }
 .profile-header {
   height: 200px;
   padding: 30px 50px;
-  background-color: rgb(177, 177, 177);
+  background-color: rgb(133, 133, 133);
 }
 .section-1 {
   float: left;
@@ -40,27 +44,46 @@ body {
   margin: 0;
 }
 .section-3 img {
-  width: 100px;
+  margin-top: 150px;
+  width: 50px;
   border-radius: 5px;
 }
-.NavBar img {
-  display: inline-block;
-  margin-top: 25px;
-  border-radius: 500px;
-  max-height: 50px;
-  padding: 0 90px;
-}
-.NavBar ul {
-  height: 100px;
+nav {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
   width: 100%;
-  line-height: 70px;
-  text-align: center;
+}
+.Logo {
+  margin: 0 50px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+nav ul {
   list-style-type: none;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
 }
-main {
-  text-align: center;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
 }
-.heading {
+
+nav ul li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
+a.active {
+  background: gold;
+  padding: 5px 5px;
+}
+
 .articleTitle {
+  text-decoration-line: underline;
+  text-decoration-color: gold;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+  padding-bottom: 10px;
 }
