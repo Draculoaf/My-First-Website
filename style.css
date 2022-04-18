@@ -58,6 +58,12 @@ nav {
   font-size: 30px;
   line-height: 50px;
 }
+.u-logo {
+  height: 20px;
+  width: 20px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
 
 nav ul {
   list-style-type: none;
@@ -119,4 +125,11 @@ a.active {
   text-align: center;
   border: 1px solid white;
   background-color: white;
+}
+
+.u-readMore {
+  font-size: 15px;
+  color: gold;
+  text-decoration: none;
+  list-style-type: none;
 }
