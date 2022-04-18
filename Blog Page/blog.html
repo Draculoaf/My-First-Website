@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Plage</title>
+    <title>Jessica - Blogs</title>
     <link rel="stylesheet" href="/normalize.css" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/Logo.png" />
   </head>
   <body>
     <head>
@@ -20,15 +21,32 @@
       </nav>
     </head>
     <main>
+      <section class="u-blogPhotos">
+        <ul>
+          <li>
+            <figure>
+              <img src="McLuhan.jpg" alt="Photo of McLuhan" />
+            </figure>
+            <article>The Medium is the Message</article>
+            <figure>
+              <img src="URL.jpg" alt="Photo of a URL" />
+            </figure>
+            <article>URLs: what, why and how?</article>
+            <figure>
+              <img src="MetaData.jpg" alt="Photo of a metadata iceberg" />
+            </figure>
+            <article>Metadata: what, why and how?</article>
+          </li>
+        </ul>
+      </section>
       <section class="articleTitle">
         <header>
-          <figure><img src="McLuhan.jpg" alt="Photo of McLuhan" /></figure>
           <article>The Medium is the Message - Marshall McLuhan (1964)</article>
         </header>
-        <time>14 March 2022</time>
       </section>
+      <time class="dt-written">14 March 2022</time>
       <section>
-        <article>
+        <article class="h-entry">
           In *The Medium is the Message*, I think it is really fascinating how
           McLuhan already predicted that technology would create “villages”. I
           think this really points to the idea of fandoms, or in this case,
@@ -82,10 +100,10 @@
         <header>
           <article>What are URLs and how do they work?</article>
         </header>
-        <time>25 March 2022</time>
       </section>
+      <time class="dt-written">25 March 2022</time>
       <section>
-        <article>
+        <article class="h-entry">
           What is a URL? URL stands for uniform resource locator, and on a
           website the URL is the specific location of a video, file, page, etc.
           on the internet. Sir Tim Berners-Lee was accredited with the coinage
