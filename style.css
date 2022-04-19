@@ -97,14 +97,15 @@ a.active {
   margin-top: 20px;
 }
 .h-entry {
-  border-style: solid;
+  border-style: none;
   padding: 20px 20px;
   margin: 0 20px;
   border-radius: 10px;
+  background-color: rgb(203, 203, 203);
 }
 
 .dt-written {
-  color: rgb(63, 63, 63);
+  color: gold;
   margin-left: 25px;
 }
 
@@ -124,6 +125,7 @@ a.active {
   flex-wrap: wrap;
   justify-content: center;
   display: inline-table;
+  margin: auto;
 }
 
 /* Blog post design starts from here */
