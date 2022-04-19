@@ -108,25 +108,6 @@ a.active {
   margin-left: 25px;
 }
 
-.u-blogPhotos {
-  height: auto;
-  width: 250px;
-}
-.u-blogPhotos ul {
-  list-style-type: none;
-  text-align: center;
-  display: inline-block;
-}
-.u-blogPhotos ul li figure {
-  display: inline-block;
-}
-
-.u-blogPhotos ul li article {
-  text-align: center;
-  border: 1px solid white;
-  background-color: white;
-}
-
 .u-readMore {
   font-size: 15px;
   color: gold;
@@ -135,10 +116,14 @@ a.active {
 }
 
 /* Basic design of blog card */
-.wrapper {
-  display: flex;
+.wrapper1,
+.wrapper2,
+.wrapper3 {
+  display: table;
+  clear: both;
   flex-wrap: wrap;
   justify-content: center;
+  display: inline-table;
 }
 
 /* Blog post design starts from here */
