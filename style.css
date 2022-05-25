@@ -1,5 +1,18 @@
-html::-webkit-scrollbar {
+/*html::-webkit-scrollbar {
   display: none;
+}*/
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gold; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid black; /* creates padding around scroll thumb */
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -50,23 +63,15 @@ body {
   width: 50px;
   border-radius: 5px;
 }
+/* The navbar */
 nav {
   background-color: rgb(255, 255, 255);
   height: 50px;
   width: 100%;
+  /* trying to create a nav bar that always shows
+  position: fixed;
+  margin-bottom: 50px;*/
 }
-.Logo {
-  margin: 0 50px;
-  font-size: 30px;
-  line-height: 50px;
-}
-.u-logo {
-  height: 20px;
-  width: 20px;
-  margin-top: 13px;
-  margin-left: 10px;
-}
-
 nav ul {
   list-style-type: none;
   float: right;
@@ -88,6 +93,17 @@ a.active {
   padding: 5px 5px;
 }
 
+.Logo {
+  margin: 0 50px;
+  font-size: 30px;
+  line-height: 50px;
+}
+.u-logo {
+  height: 20px;
+  width: 20px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
 .article-title {
   text-decoration-line: underline;
   text-decoration-color: gold;
