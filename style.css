@@ -1,8 +1,5 @@
-/*html::-webkit-scrollbar {
-  display: none;
-}*/
 body::-webkit-scrollbar {
-  width: 10px; /* width of the entire scrollbar */
+  width: 10px;
 }
 
 body::-webkit-scrollbar-track {
@@ -10,60 +7,70 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: gold; /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid black; /* creates padding around scroll thumb */
+  background-color: gold;
 }
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: monospace monaco;
   font-size: 5px;
   background-size: cover;
   height: 100%;
   font-size: larger;
   background-color: rgb(133, 133, 133);
 }
-.profile-header {
-  height: 200px;
-  padding: 30px 50px;
-  background-color: rgb(133, 133, 133);
+
+.social-links {
+  text-align: left;
 }
-.section-1 {
-  float: left;
-  width: 33.333%;
-  padding: 0;
-  margin: 0;
-}
-.section-1 img {
-  height: 200px;
-  border-radius: 200px;
-}
-.section-2 {
-  display: inline-block;
-  width: 33.333%;
-  text-align: center;
-  vertical-align: middle;
-  padding: 50px;
-  font-size: larger;
-}
-.name {
-  text-decoration-line: underline;
-  text-decoration-color: gold;
-  text-decoration-thickness: 3px;
-  text-underline-position: under;
-  padding-bottom: 10px;
-  color: white;
-}
-.section-3 {
-  float: right;
-  padding: 0;
-  margin: 0;
-}
-.section-3 img {
-  margin-top: 150px;
-  width: 50px;
-  border-radius: 5px;
+.social-links img {
+  height: 35px;
+  margin: 10px;
+  cursor: pointer;
 }
 /* The navbar */
+
+.burger-button {
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+  line-height: 55px;
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+#menu-bar:checked ~ ul {
+  left: 0;
+}
+
+@media (max-width: 500px) {
+  .burger-button {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    background-color: #616b74;
+    height: 2.5rem;
+    top: 20px;
+    text-align: center;
+    left: -120%;
+    transition: ease-in-out;
+  }
+
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    margin-left: -10px;
+  }
+
+  .checkbox {
+    display: none;
+  }
+}
+
 nav {
   background-color: rgb(255, 255, 255);
   height: 50px;
@@ -91,6 +98,7 @@ nav ul li a {
 a.active {
   background: gold;
   padding: 5px 5px;
+  border-radius: 5px;
 }
 
 .Logo {
@@ -206,6 +214,7 @@ a.active {
 .profile-name {
   font-size: 1rem;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -305,7 +314,6 @@ a.active {
   color: rgb(255, 196, 0);
   text-decoration: none;
 }
-
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
