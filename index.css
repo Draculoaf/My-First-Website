@@ -2,11 +2,6 @@ body {
   background-color: rgb(242, 228, 175);
 }
 
-@media (max-width: 500px) {
-  nav ul {
-    background-color: white;
-  }
-}
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
