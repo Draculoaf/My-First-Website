@@ -44,26 +44,74 @@ body {
   text-align: bottom;
 }
 
-* {
-  box-sizing: border-box;
+/* Basic design of blog card */
+.wrapper1,
+.wrapper2,
+.wrapper3 {
+  display: flex;
+  clear: both;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: inline-table;
+  margin: auto;
+  flex-direction: row;
 }
 
-.card img {
+/* Blog post design starts from here */
+.card {
+  overflow: hidden;
+  background: white; /* post background color */
+  border-radius: 0.5rem;
+  position: relative;
+  width: 350px; /* post card width */
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+  cursor: pointer;
+  min-height: 450px;
+}
+
+.card:hover {
+  /* blog post hover */
+  transform: scale(1.05);
+}
+
+/*Design banner image*/
+.u-banner-img {
+  position: absolute;
+  object-fit: cover;
+  height: 14rem; /* image height */
   width: 100%;
 }
 
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+/* Design of # tags, heading, description starts from here */
+.card-body {
+  margin: 15rem 1rem 1rem 1rem;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+/* heading design */
+.p-blog-title {
+  line-height: 1.5rem;
+  margin: 1rem 0 0.5rem;
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
+/* description design */
+.p-blog-description {
+  color: #616b74;
+  font-size: 0.9rem;
+}
+
+/*Design of profile image, name, followers starts from here*/
+.card-profile {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+/* profile name */
+.profile-name {
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
 }
