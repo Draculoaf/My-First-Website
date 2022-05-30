@@ -20,11 +20,15 @@ body {
 
 .social-links {
   text-align: left;
+  float: left;
 }
 .social-links img {
-  height: 35px;
-  margin: 10px;
+  height: 40px;
+  margin: 1px;
+  margin-right: 10px;
+  padding-bottom: 20px;
   cursor: pointer;
+  display: inline-block;
 }
 /* The navbar */
 
@@ -111,6 +115,10 @@ a.active {
   width: 20px;
   margin-top: 13px;
   margin-left: 10px;
+}
+
+#more {
+  display: none;
 }
 .article-title {
   text-decoration-line: underline;
