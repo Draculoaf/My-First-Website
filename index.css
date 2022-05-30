@@ -7,6 +7,3 @@ body {
     background-color: white;
   }
 }
-body::-webkit-scrollbar-thumb {
-  background-color: black;
-}
