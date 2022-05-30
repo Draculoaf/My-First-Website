@@ -73,6 +73,10 @@ body {
   .checkbox {
     display: none;
   }
+
+  .social-links img {
+    display: none;
+  }
 }
 
 nav {
@@ -262,7 +266,7 @@ a.active {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid rgb(255, 200, 0);
+  border: 4px solid rgb(255, 179, 0);
   top: 15px;
   border-radius: 50%;
   z-index: 1;

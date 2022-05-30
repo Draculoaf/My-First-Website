@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(243, 223, 154);
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    background-color: white;
+  }
+}
