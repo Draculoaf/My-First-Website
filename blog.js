@@ -3,6 +3,8 @@ function readMoreFunction() {
   var moreText = document.getElementById("more");
   //var buttons = document.getElementsById[("myBtn", "myBtn2", "myBtn3")];
   var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById("myBtn2");
+  var btnText = document.getElementById("myBtn3");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";

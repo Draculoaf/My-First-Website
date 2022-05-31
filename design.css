@@ -20,3 +20,9 @@
   display: table;
   padding: 10px 10px;
 }
+@media (max-width: 500px) {
+  ul li {
+    float: left;
+    right: 10%;
+  }
+}
