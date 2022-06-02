@@ -1,18 +1,22 @@
-function readMoreFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  //var buttons = document.getElementsById[("myBtn", "myBtn2", "myBtn3")];
-  var btnText = document.getElementById("myBtn");
-  var btnText = document.getElementById("myBtn2");
-  var btnText = document.getElementById("myBtn3");
+function goBack() {
+  window.history.back();
+}
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+function getArticle() {
+  //Get elements
+  let source = document.getElementById("source");
+
+  //Store them in an array
+  let sources = [];
+
+  //Assign values to array
+  sources[0] = "The Medium is the Message";
+  sources[1] = "URLs";
+  sources[2] = "Metadata";
+
+  //Random number
+  let i = Math.floor(Math.random() * sources.length);
+
+  //Set article
+  source.innerHTML = sources[i];
 }
