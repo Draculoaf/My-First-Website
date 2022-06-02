@@ -8,7 +8,17 @@ body {
   align-items: center;
   font-size: larger;
 }
+body::-webkit-scrollbar {
+  width: 10px;
+}
 
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gold;
+}
 .p-quote {
   font-style: italic;
 }
