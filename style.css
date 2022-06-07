@@ -8,6 +8,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: gold;
+  border: 3px solid black;
 }
 body {
   font-family: monospace monaco;
@@ -62,6 +63,7 @@ body {
     text-align: center;
     left: -120%;
     transition: ease-in-out;
+    z-index: 99;
   }
 
   nav ul li {

@@ -46,3 +46,16 @@
   color: black;
   margin-left: 25px;
 }
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 3px solid black;
+  outline: none;
+  background-color: gold;
+  padding: 15px;
+  border-radius: 10px;
+}
