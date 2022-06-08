@@ -17,6 +17,7 @@ body {
   height: 100%;
   font-size: larger;
   background-color: rgb(242, 228, 175);
+  overflow-x: hidden;
 }
 
 .social-links {
