@@ -11,9 +11,7 @@ body {
 }
 
 /* Basic design of blog card */
-.wrapper1,
-.wrapper2,
-.wrapper3 {
+.wrapper {
   display: flex;
   clear: both;
   flex-wrap: wrap;
@@ -32,7 +30,6 @@ body {
   width: 350px; /* post card width */
   margin: 1rem;
   transition: 250ms all ease-in-out;
-  cursor: pointer;
   min-height: 450px;
 }
 

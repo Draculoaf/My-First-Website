@@ -41,3 +41,6 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(242, 228, 175);
   border: none;
 }
+.back-button:hover {
+  transform: scale(1.5);
+}
