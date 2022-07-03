@@ -17,6 +17,8 @@ function getArticle() {
   sources[4] = "Reflection on UX/UI";
   sources[5] = "Internet, Soceity and Design Justice";
   sources[6] = "A Reflection On the Creation of This Site";
+  sources[7] = "Knowledge is Power";
+  sources[8] = "External JS Dependamcy";
 
   //Random number
   let i = Math.floor(Math.random() * sources.length);
