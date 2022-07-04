@@ -15,6 +15,8 @@
     ></script>
     <link rel="stylesheet two" href="index.css" />
     <script src="design.js"></script>
+    <link rel="stylesheet" href="slideshow.css" />
+    <script src="slideshow.js"></script>
   </head>
 
   <body>
@@ -53,6 +55,41 @@
       <button onclick="topFunction()" id="topBtn">
         <i class="fa-solid fa-arrow-up-long"></i>
       </button>
+
+      <!--Slideshow-->
+      <div class="slideshow-container">
+        <div class="u-mySlides">
+          <img src="Shader.png" />
+          <div class="text">Experimental Shaders</div>
+        </div>
+
+        <div class="u-mySlides">
+          <img src="Heartsherf.png" />
+          <div class="text">Heartsherf</div>
+        </div>
+
+        <div class="u-mySlides">
+          <img src="Afrovania.png" />
+          <div class="text">Afrovania</div>
+        </div>
+
+        <div class="u-mySlides">
+          <img src="A piece of Cake.png" />
+          <div class="text">Piece of Cake!</div>
+        </div>
+
+        <div class="u-mySlides">
+          <img src="Game Feel.png" />
+          <div class="text">Experimental Game Feel</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"
+          ><i class="fa-solid fa-angle-left"></i
+        ></a>
+        <a class="next" onclick="plusSlides(1)"
+          ><i class="fa-solid fa-angle-right"></i
+        ></a>
+      </div>
 
       <div id="h-introduction">
         <p>My life as a student and how I became a developer!</p>
